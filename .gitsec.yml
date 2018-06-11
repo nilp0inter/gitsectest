@@ -1,2 +1,10 @@
-test:
-    - something
+regex:
+    - alksdjf
+    - lkjadslfkj
+plugins:
+    trufflehog:
+        image: gitsec-trufflehog
+        task: lksdjf
+    api-something:
+        image: laksjdflkjasdf
+        task: lkasjdf
