@@ -1,3 +1,4 @@
 plugins:
     bbvalabsci/gitsec-trufflehog:
     bbvalabsci/gitsec-git-secrets:
+
