@@ -1,4 +1,25 @@
 plugins:
-    bbvalabsci/gitsec-trufflehog:
     bbvalabsci/gitsec-git-secrets:
+        unimportant: yes
+        options:
+            prohibited:
+                something:
+                    value: 'lkj...lfkj'
+                    type: regex
+                daniexpression:
+                    value: '[Aa]'
+                    type: regex
+    bbvalabsci/gitsec-api-key-detect:
+    bbvalabsci/gitsec-trufflehog:
+    bbvalabsci/gitsec-git-hound:
+        unimportant: yes
+        options:
+            prohibited:
+                something:
+                    value: 'lkj...lfkj'
+                    type: regex
+                daniexpression:
+                    value: '[Aa]'
+                    type: regex
+    bbvalabsci/gitsec-gittyleaks:
 
