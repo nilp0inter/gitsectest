@@ -8,5 +8,5 @@ plugins:
     bbvalabsci/gitsec-api-key-detect:
     bbvalabsci/gitsec-git-hound:
     bbvalabsci/gitsec-gittyleaks:
-#    bbvalabsci/gitsec-trufflehog:
+    bbvalabsci/gitsec-trufflehog:
 
