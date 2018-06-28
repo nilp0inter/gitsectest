@@ -1,7 +1,12 @@
 plugins:
     bbvalabsci/gitsec-git-secrets:
+        options:
+            prohibited:
+                dni:
+                    value: '[a-zA-Z]{3}[0-9]{6}[a-zA-Z]?'
+                    type: regex
     bbvalabsci/gitsec-api-key-detect:
-    bbvalabsci/gitsec-trufflehog:
     bbvalabsci/gitsec-git-hound:
     bbvalabsci/gitsec-gittyleaks:
+#    bbvalabsci/gitsec-trufflehog:
 
