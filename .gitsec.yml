@@ -3,7 +3,7 @@ plugins:
         options:
             prohibited:
                 dni:
-                    value: '[a-zA-Z]{3}[0-9]{6}[a-zA-Z]?'
+                    value: '[a-zA-Z]{3}[0-9]{6,8}[a-zA-Z]?'
                     type: regex
     bbvalabsci/gitsec-api-key-detect:
     bbvalabsci/gitsec-git-hound:
