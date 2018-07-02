@@ -9,4 +9,5 @@ plugins:
     bbvalabsci/gitsec-git-hound:
     bbvalabsci/gitsec-gittyleaks:
     bbvalabsci/gitsec-trufflehog:
+        unimportant: yes
 
