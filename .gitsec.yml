@@ -1,5 +1,6 @@
 plugins:
     bbvalabsci/gitsec-git-secrets:
+        unimportant: yes
         options:
             prohibited:
                 dni:
