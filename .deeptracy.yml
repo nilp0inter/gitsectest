@@ -1,8 +1,7 @@
 projects:
-    <name>:
-        type: xxxx
-        strategy: yyyy
+    backend:
+        type: deeptracy-python:2.7
+        strategy: pip_install
         unimportant: false
         config:
-            aaa: bbb
-            ccc: ddd
+            path: src/backend
