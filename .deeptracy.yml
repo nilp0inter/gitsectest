@@ -1,0 +1,6 @@
+projects:
+    <name>:
+        type: xxxx
+        strategy: yyyy
+        path: zzzz
+        unimportant: false
