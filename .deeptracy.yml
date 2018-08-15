@@ -1,7 +1,8 @@
 projects:
     backend:
         type: deeptracy-python:2.7
-        strategy: pip_install
+        strategy: requirement_file
         unimportant: false
         config:
             path: src/backend
+            requirement: requirements.txt
