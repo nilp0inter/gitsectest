@@ -2,5 +2,7 @@ projects:
     <name>:
         type: xxxx
         strategy: yyyy
-        path: zzzz
         unimportant: false
+        config:
+            aaa: bbb
+            ccc: ddd
