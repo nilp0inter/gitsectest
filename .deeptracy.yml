@@ -8,7 +8,7 @@ projects:
             requirement: requirements.txt
     backend2:
         type: deeptracy-mvn:3.5-jdk-9
-        strategy: requirement_file
+        strategy: mvn_dependencytree
         unimportant: false
         config:
             path: src/backend2
