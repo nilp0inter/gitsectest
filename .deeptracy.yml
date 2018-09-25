@@ -2,20 +2,6 @@ projects:
     backend:
         type: deeptracy-python:2.7
         strategy: requirement_file
-        unimportant: false
         config:
             path: src/backend
             requirement: requirements.txt
-    backend2:
-        type: deeptracy-mvn:3.5-jdk-9
-        strategy: mvn_dependencytree
-        unimportant: false
-        config:
-            path: src/backend2
-    frontend:
-        type: deeptracy-node:8
-        strategy: npm_install
-        unimportant: false
-        config:
-            path: src/frontend
-
