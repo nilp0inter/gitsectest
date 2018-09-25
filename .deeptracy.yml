@@ -1,6 +1,6 @@
 projects:
     backend:
-        type: deeptracy-python:2.7
+        type: deeptracy-ruby:2.3.7
         strategy: requirement_file
         config:
             path: src/backend
