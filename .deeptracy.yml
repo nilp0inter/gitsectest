@@ -1,6 +1,6 @@
 projects:
     backend:
-        type: deeptracy-ruby:2.3.7
+        type: bbvalabs/deeptracy-plugin-python:2.3.7
         strategy: requirement_file
         config:
             path: src/backend
