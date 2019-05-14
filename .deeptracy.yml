@@ -1,6 +1,6 @@
 projects:
     frontend:
-        type: bbvalabs/deeptracy-plugin-node:8
+        type: bbvalabs/deeptracy-plugin-npm:8
         strategy: npm_install
         config:
             path: src/frontend
