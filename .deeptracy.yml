@@ -1,6 +1,6 @@
 projects:
     backend2:
-        type: deeptracy-mvn:3.5-jdk-9
+        type: bbvalabs/deeptracy-mvn:3.5-jdk-9
         strategy: mvn_dependencytree
         config:
             path: src/backend2
