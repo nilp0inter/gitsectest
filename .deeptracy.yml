@@ -1,6 +1,6 @@
 projects:
     backend2:
-        type: deeptracy-owasp-dependency-check
+        type: bbvalabs/deeptracy-plugin-owasp
         strategy: dependency_check
         unimportant: false
         config:
